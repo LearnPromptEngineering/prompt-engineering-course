@@ -1,0 +1,37 @@
+# What .gitignore should I use if I plan to primarily use HTML, CSS, and JS for my website?
+
+# Ignore files generated during development or runtime
+/node_modules/
+/.vscode/
+/.idea/
+/.sass-cache/
+/.DS_Store
+
+# Ignore build artifacts
+/dist/
+/build/
+
+# Ignore package lock files
+/package-lock.json
+/yarn.lock
+
+# Ignore user-specific and environment-specific files
+/.env
+.env.local
+.env.*.local
+.env.production
+
+# Ignore log files
+/*.log
+
+# Ignore backup files
+*~
+
+# Ignore dependencies and build output for package managers
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Ignore OS-specific files
+/.DS_Store
+/Thumbs.db
